@@ -1,0 +1,121 @@
+
+/*IMGS-SLIDER*/
+
+.slider ul{
+      display: flex;
+      padding:0;
+      width: 300%;
+      
+      animation: change 20s infinite;
+      animation-direction: alternate;
+      animation-timing-function: linear;
+      
+}
+
+.slider li{
+      list-style: none;
+      width: 100%;
+}
+
+.slider img{
+      width: 100%;
+      border-radius: 8px;
+}
+
+@keyframes change {
+      0% {margin-left: 0;}
+      30% {margin-left: 0;}
+      
+      35% {margin-left: -100%}
+      65% {margin-left: -100%}
+      
+      70% {margin-left: -200%}
+      100% {margin-left: -200%}
+          
+}
+/*SECTION*/
+
+
+.container-sec {
+      display: flex;
+      justify-content: space-evenly;  
+      margin-top: 40px;
+      font-size: 20px;
+    
+}
+
+.img-sec {
+     width: 50%;  
+      border-radius: 8px;
+      max-width: 1000px;
+      height: auto;
+}
+
+.content-txt {
+      width: 50%;
+      padding-top: 100px; 
+      background: #9ACD32;
+      color:  #fff;
+      border-radius: 8px;
+      text-align: center;
+
+}
+
+.content-txt a {
+      padding-top: 100px;
+      font-size: 40px;
+      color: #0000FF;
+      text-decoration: none;
+      
+}
+
+.content-txt p {
+      padding: 0px 0px 30px 15px;
+      text-align: justify;
+      margin: 30px;
+}
+
+.sec-container {
+      padding: 10px 0;
+      width: 100%;
+      max-width: 1000px;
+      margin: auto;
+      
+}
+
+.sec-container > h3 {
+      text-align: center;
+      font-size: 40px;
+      color: #0000FF;
+      padding: 20px;
+      background: #fff;
+}
+
+.portafolio {
+      background: #fff;
+      font-size: 20px;
+      margin-top: 80px;
+      border-radius: 8px;   
+}
+
+.gallery-port {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      
+}
+
+.img-port {
+      width: 23%;
+      margin: 10px;
+      
+}
+
+.img-port > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      
+}
+

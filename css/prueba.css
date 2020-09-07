@@ -1,0 +1,37 @@
+@import compass
+
+@import compass/css3
+      
+      #main-container
+  margin: 20px auto
+  max-width: 900px
+  background-color: grey
+  height: 100%
+  overflow: hidden
+
+.block
+  background-color: steelblue
+  width: 31.33%
+  height: 150px
+  float: left
+  margin: 1%
+  +box-sizing(border-box)
+  
+@media screen and (max-width:640px)
+  .block
+    background-color: blue
+    width: 47.9%
+  
+    &:first-child
+      width: 98%
+      background-color: red
+      clear: both
+  
+    &:last-child
+      width: 98%
+      background-color: darkgreen
+      clear: both
+  
+  @media screen and (max-width:320px)
+    .block
+      width: 98%

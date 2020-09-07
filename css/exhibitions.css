@@ -1,0 +1,95 @@
+.exh-img-container {
+      background-image: url(../images/ant.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      
+}
+
+#pic-exh {
+      display:inline-flex;
+      max-width: 1200px;
+      margin: 0 auto;
+      background-color: floralwhite;
+      padding-top: 80px;
+      
+}
+
+#pic-exh .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      
+}
+#pic-exh img {
+      
+      width: 100%;
+      max-width: 500px;
+      border-radius: 8px;
+      margin: 20px;
+}
+
+.content {
+      height: 100px;
+      width: 100%;
+      padding: 0;
+      padding-left: 50px;
+}
+      
+.content a {
+      
+      float:left;
+      margin-right: 40px;.
+      right: 10%;
+      font-size: 35px;
+      border-radius:8px;
+      text-decoration: none;
+      padding-bottom: 20px;
+           
+}
+
+.content p {
+      font-size: 18px;
+      width: 250px;     
+}
+ 
+
+      
+      
+/*hsdbhjf/*
+.pic .content {
+      position: absolute;
+      bottom: 0;
+      background: #fff;
+      opacity: 90%;
+      color: 000;
+      width: 33%;
+      padding:0 ;
+      padding-left: 90px;
+}
+
+.pic .content a{
+      position: absolute;
+      bottom: 33%;
+      right: 10%;
+      background-color:#0000FF;
+      border-radius:8px;
+      color: #fff;
+      text-transform:uppercase;
+      padding: 10px 15px;
+}
+
+.pic .content a:hover {
+      background: #9ACD32;
+      color: #0000FF;
+      text-decoration: none;     
+}
+
+h1 {
+      color: blue;
+}
+
+p{
+      padding: 10px 0;
+}
